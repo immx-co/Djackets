@@ -76,7 +76,7 @@ export default {
             this.$store.commit('addToCart', item)
 
             toast({
-                message: 'Ебейший джакет добавлен в корзину',
+                message: `${this.product.name} добавлен в корзину`,
                 type: 'is-success',
                 dismissible: true,
                 pauseOnHover: true,
